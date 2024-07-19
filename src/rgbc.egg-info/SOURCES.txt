@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/rgbc/__init__.py
+src/rgbc/cli.py
+src/rgbc.egg-info/PKG-INFO
+src/rgbc.egg-info/SOURCES.txt
+src/rgbc.egg-info/dependency_links.txt
+src/rgbc.egg-info/entry_points.txt
+src/rgbc.egg-info/requires.txt
+src/rgbc.egg-info/top_level.txt

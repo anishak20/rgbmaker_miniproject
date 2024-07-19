@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rgbc
+Version: 0.0.1
+Summary: RGBMaker is a python package which communicates to different astronomical services and fetches fits and numerical data.
+Home-page: https://github.com/avialxee/rgbmaker_miniproject
+Author: Avinash Kumar
+Author-email: avialxee@gmail.com
+Project-URL: Bug Tracker, https://github.com/avialxee/rgbmaker_miniproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+Requires-Dist: astropy>=4.2.1
+Requires-Dist: matplotlib>=3.4.2
+Requires-Dist: numpy>=1.20.3
+Requires-Dist: astroquery
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest>=3.7; extra == "dev"
+
+# RGBMaker miniproject
+----
+
+Follow link [here](https://colab.research.google.com/drive/1rKnpGRNIs6JFchGgdPbtZkMvXq3yZfai#scrollTo=1bIjFhRtnJtj)
