@@ -25,6 +25,7 @@ def cli():
     position    =   args.position
     radius      =   args.radius
     surveys     =   args.surveys.split(',')
+    surveys     =   [svy.strip() for svy in surveys]
     cmin        =   float(args.contour_min)
 
     RGBC(position=position, radius=radius, svy=surveys, cmin=cmin, kind='png').plot()
